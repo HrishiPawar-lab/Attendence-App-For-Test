@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.appWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.card {
+  width: 500px;
+  height: 400px;
+  overflow-y: scroll;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.card::-webkit-scrollbar {
+  width: 16px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-block: 5px;
+  outline: 0;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+
+button {
+  width: 100%;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 0;
+  outline: 0;
+  background-color: royalblue;
+  color: white;
+  transition: 0.5s ease all;
+}
+button:hover {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  color: royalblue;
+  background-color: white;
+}
+.sub-heading {
+  font-size: 18px;
+  margin: 10px 0;
+  text-decoration: underline;
+}
+
+table {
+  table-layout: fixed;
+  width: 100%;
+  margin-top: 20px;
+  text-align: left;
+  border: 1px solid #ddd !important;
+  border-collapse: collapse;
+}
+
+th,
+tr,
+td {
+  border: 1px solid;
+}
+tr:hover {
+  background-color: #f2f2f2;
+  color: black;
+}
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+th,
+td {
+  padding: 15px;
+}
+.text-center {
+  display: block;
+  text-align: center;
+}
+.mt-2 {
+  display: block;
+  margin-top: 15px;
+}
